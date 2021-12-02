@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-02T14:23:58 CST" name="TestSuite" finished-at="2021-12-02T14:24:07 CST" duration-ms="9034">
+    <groups>
+    </groups>
+    <test started-at="2021-12-02T14:23:58 CST" name="ChromeTest" finished-at="2021-12-02T14:24:07 CST" duration-ms="9034">
+      <class name="parallelTest.CrossBrowserScript">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@4b29d1d2]" started-at="2021-12-02T14:23:58 CST" name="setup" finished-at="2021-12-02T14:24:03 CST" duration-ms="5145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterWithXML()[pri:0, instance:parallelTest.CrossBrowserScript@4b29d1d2]" started-at="2021-12-02T14:24:03 CST" name="testParameterWithXML" finished-at="2021-12-02T14:24:07 CST" duration-ms="3788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- parallelTest.CrossBrowserScript -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
