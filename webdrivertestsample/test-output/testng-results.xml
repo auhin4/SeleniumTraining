@@ -2,17 +2,22 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-02T10:25:52 CST" name="Suite" finished-at="2021-12-02T10:26:55 CST" duration-ms="62954">
+  <suite started-at="2021-12-06T12:15:51 CST" name="Default suite" finished-at="2021-12-06T12:26:29 CST" duration-ms="637789">
     <groups>
     </groups>
-    <test started-at="2021-12-02T10:25:52 CST" name="Test" finished-at="2021-12-02T10:26:55 CST" duration-ms="62954">
+    <test started-at="2021-12-06T12:15:51 CST" name="Default test" finished-at="2021-12-06T12:26:29 CST" duration-ms="637789">
       <class name="webdrivertestsample.NewTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:webdrivertestsample.NewTest@79e4c792]" started-at="2021-12-02T10:25:52 CST" name="beforeTest" finished-at="2021-12-02T10:26:55 CST" duration-ms="62732" status="FAIL">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:webdrivertestsample.NewTest@79e4c792]" started-at="2021-12-06T12:15:51 CST" name="beforeTest" finished-at="2021-12-06T12:26:29 CST" duration-ms="637609" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
 
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'LAPTOP-T6HK3KUO', ip: '192.168.1.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
@@ -21,7 +26,12 @@ Driver info: driver.version: FirefoxDriver]]>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
 
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'LAPTOP-T6HK3KUO', ip: '192.168.1.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
@@ -60,7 +70,12 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
 
 at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
 ... 31 more
@@ -70,12 +85,17 @@ at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewP
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="testEasy()[pri:0, instance:webdrivertestsample.NewTest@79e4c792]" started-at="2021-12-02T10:26:55 CST" name="testEasy" finished-at="2021-12-02T10:26:55 CST" duration-ms="0" status="SKIP">
+        <test-method signature="testEasy()[pri:0, instance:webdrivertestsample.NewTest@79e4c792]" started-at="2021-12-06T12:26:29 CST" name="testEasy" finished-at="2021-12-06T12:26:29 CST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
 
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'LAPTOP-T6HK3KUO', ip: '192.168.1.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
@@ -84,7 +104,12 @@ Driver info: driver.version: FirefoxDriver]]>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
 
 Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
 System info: host: 'LAPTOP-T6HK3KUO', ip: '192.168.1.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
@@ -123,7 +148,12 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
 
 at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
 ... 31 more
@@ -133,11 +163,11 @@ at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewP
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:webdrivertestsample.NewTest@79e4c792]" started-at="2021-12-02T10:26:55 CST" name="afterTest" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1638462415658" status="SKIP">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:webdrivertestsample.NewTest@79e4c792]" started-at="2021-12-06T12:26:29 CST" name="afterTest" finished-at="1969-12-31T18:00:00 CST" duration-ms="-1638815189393" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- webdrivertestsample.NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
